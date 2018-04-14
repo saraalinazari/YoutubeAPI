@@ -57,23 +57,23 @@
     // }).then(function(response) {
     //   console.log(response);
     // });
-    window.fbAsyncInit = function () {
-    FB.init({ appId: 'your-app-id', cookie: true, xfbml: true, oauth: true });
+//     window.fbAsyncInit = function () {
+//     FB.init({ appId: 'your-app-id', cookie: true, xfbml: true, oauth: true });
 
-    // *** here is my code ***
-    if (typeof facebookInit == 'function') {
-        facebookInit();
-    }
-};
-function facebookInit() {
-   // do what you would like here
-   FB.api("HRgt4AmA2Ny",function (response) {
-      if (response && !response.error) {
-        console.log(response);
-      }
-    }
-);
-}
+//     // *** here is my code ***
+//     if (typeof facebookInit == 'function') {
+//         facebookInit();
+//     }
+// };
+// function facebookInit() {
+//    // do what you would like here
+//    FB.api("HRgt4AmA2Ny",function (response) {
+//       if (response && !response.error) {
+//         console.log(response);
+//       }
+//     }
+// );
+// }
   
     </script>
     <script></script>
