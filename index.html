@@ -48,15 +48,15 @@
       fjs.parentNode.insertBefore(js, fjs);
     }(document, 'script', 'facebook-jssdk'));
     
-    var username= "HT.NorthHollywood";
-    var queryURL = "https://graph.facebook.com/v2.11/HRgt4AmA2Ny";
+    // var username= "HT.NorthHollywood";
+    // var queryURL = "https://graph.facebook.com/v2.11/HRgt4AmA2Ny";
  
-    $.ajax({
-      url: queryURL,
-      method: "GET"
-    }).then(function(response) {
-      console.log(response);
-    });
+    // $.ajax({
+    //   url: queryURL,
+    //   method: "GET"
+    // }).then(function(response) {
+    //   console.log(response);
+    // });
 
     FB.api("HRgt4AmA2Ny",function (response) {
       if (response && !response.error) {
