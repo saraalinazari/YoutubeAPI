@@ -12,7 +12,7 @@
 
     var fbul = "https://graph.facebook.com/oauth/access_token?type=client_cred&client_id=258507278047521&client_secret=9d6fbf0079bd00dda2a3af652263c770";
     var fburl = "https://graph.facebook.com/201317759900688?fields=feed&";
-
+    console.log("sara");
     $.get(fbul, function(auth_token){
         $.ajax({
             dataType: "jsonp",
