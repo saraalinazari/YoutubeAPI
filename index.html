@@ -52,12 +52,12 @@
 
     //       document.writeln((response));
     //     }); 
-    var queryURL = "https://graph.facebook.com/v2.11?appId=258507278047521";
-
+    var username= "HT.NorthHollywood";
+    var queryURL = "https://graph.facebook.com/v2.11?appId=258507278047521&username"+username;
+ 
     $.ajax({
       url: queryURL,
-      method: "GET",
-      username: "HT.NorthHollywood"
+      method: "GET"
     }).then(function(response) {
       console.log(response);
     });
