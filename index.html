@@ -47,6 +47,11 @@
       js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.12&appId=258507278047521&autoLogAppEvents=1';
       fjs.parentNode.insertBefore(js, fjs);
     }(document, 'script', 'facebook-jssdk'));
+    FB.api('https://www.facebook.com/HT.NorthHollywood', function(response){
+          console.log(JSON.stringify(response));
+
+          document.writeln((response));
+        }); 
     </script>
     <!-- "https://www.facebook.com/20531316728/posts/10154009990506729/" -->
     <div class="fb-post" data-href="https://www.facebook.com/HT.NorthHollywood/posts/571884386525254" data-width="500" data-show-text="true"><blockquote cite="https://www.facebook.com/HT.NorthHollywood/posts/571884386525254" class="fb-xfbml-parse-ignore"><p>Hội Thánh Vui Mừng đón tiếp thành viên mới vào trong
@@ -55,11 +60,7 @@
         >Hội Thánh NorthHollywood</a> on&nbsp;
         <a href="https://www.facebook.com/HT.NorthHollywood/posts/571884386525254">Sunday, April 8, 2018</a>
       </blockquote></div>
-      <script> FB.api('https://www.facebook.com/HT.NorthHollywood', function(response){
-          console.log(JSON.stringify(response));
-
-          document.writeln((response));
-        }); </script>
+     
       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </body>
 </html>
