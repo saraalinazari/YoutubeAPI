@@ -56,7 +56,9 @@
         <a href="https://www.facebook.com/HT.NorthHollywood/posts/571884386525254">Sunday, April 8, 2018</a>
       </blockquote></div>
       <script> FB.api('https://www.facebook.com/HT.NorthHollywood', function(response){
-          console.log(response);
+          console.log(JSON.stringify(response));
+
+          document.writeln((response));
         }); </script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </body>
