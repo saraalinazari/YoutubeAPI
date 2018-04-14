@@ -57,13 +57,24 @@
     // }).then(function(response) {
     //   console.log(response);
     // });
+    window.fbAsyncInit = function () {
+    FB.init({ appId: 'your-app-id', cookie: true, xfbml: true, oauth: true });
 
-    FB.api("HRgt4AmA2Ny",function (response) {
+    // *** here is my code ***
+    if (typeof facebookInit == 'function') {
+        facebookInit();
+    }
+};
+function facebookInit() {
+   // do what you would like here
+   FB.api("HRgt4AmA2Ny",function (response) {
       if (response && !response.error) {
         console.log(response);
       }
     }
 );
+}
+  
     </script>
     <script></script>
     <!-- // <div class="fb-post" data-href="https://www.facebook.com/HT.NorthHollywood/posts/571884386525254" data-width="500" data-show-text="true"><blockquote cite="https://www.facebook.com/HT.NorthHollywood/posts/571884386525254" class="fb-xfbml-parse-ignore"><p>Hội Thánh Vui Mừng đón tiếp thành viên mới vào trong
