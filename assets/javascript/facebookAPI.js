@@ -51,7 +51,7 @@
     //     }
     // );
    //var queryURL="https://graph.facebook.com/v2.12/me/posts?fields=picture&access_token=258507278047521|zcxXsMKuAnK4UYnpRSjiPy5YaHo&limit=3";
-   var queryURL="https://graph.facebook.com/v2.12/me/posts?fields=cover&access_token=258507278047521|zcxXsMKuAnK4UYnpRSjiPy5YaHo&limit=3";
+   var queryURL="https://graph.facebook.com/v2.12/me/posts?photos&access_token=258507278047521|zcxXsMKuAnK4UYnpRSjiPy5YaHo&limit=3";
     $.ajax({
               url: queryURL,
               method: "GET"
