@@ -30,7 +30,7 @@
   // var queryURL="https://graph.facebook.com/v2.12/Sara Alinazari/posts?fields=picture,full_picture,link,created_time&access_token=258507278047521|zcxXsMKuAnK4UYnpRSjiPy5YaHo&limit=3";
     // feed?access_token=EAACEdEose0cBAHoKFE31EgXHevqiq428CatboBHxT6TTEfZBPuYb1Y9aOSsEcIrq7NVe2R7CebXkL0P8icRw3ZB22apvljSBZB07tGvX5wAEKasgZCDIohXEPLod9ZA3x8IWIt6ibdczaiTUYqlzQdCelrPo94b4dUENTVZAgYawUhoJDRBXBmlRymehtNpfVP98sYqJZCSfwZDZD";
    
-    $.get("https://graph.facebook.com/v2.12/10207157941490688/posts?fields=picture,full_picture,link,created_time&access_token=258507278047521|zcxXsMKuAnK4UYnpRSjiPy5YaHo&limit=3"
+    $.get("https://graph.facebook.com/v2.12/Sara Alinazari/posts?fields=picture,full_picture,link,created_time&access_token=258507278047521|zcxXsMKuAnK4UYnpRSjiPy5YaHo&limit=3"
     // ,{  part: "snippet,contentDetails",
     //     playlistId: playlistid,
     //     key: "AIzaSyDDjAtFUlvDYNDJyzf_aok7-rHVSDKRd60"},
