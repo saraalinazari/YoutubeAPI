@@ -32,21 +32,21 @@
    
    
     //var queryURL="https://graph.facebook.com/v2.11/10207157941490688/photos?fields=height,width,link";
-    // $.ajax({
-    //           url: queryURL,
-    //           method: "GET"
-    //         }).then(function(response) {
-    //           console.log("response"+response);
-    //         });
+    $.ajax({
+              url: queryURL,
+              method: "GET"
+            }).then(function(response) {
+              console.log("response"+response);
+            });
 
-            $.get(fbul, function(auth_token){
-                    $.ajax({
-                        dataType: "jsonp",
-                        url: queryURL,
-                        success: function(res){
-                            console.log(res);
+            // $.get(fbul, function(auth_token){
+            //         $.ajax({
+            //             dataType: "jsonp",
+            //             url: queryURL,
+            //             success: function(res){
+            //                 console.log(res);
             
-                        }
-                    });
-                });
+            //             }
+            //         });
+            //     });
             });
