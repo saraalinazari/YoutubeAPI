@@ -50,7 +50,7 @@
     //         })
     //     }
     // );
-   var queryURL="https://graph.facebook.com/v2.12/10207157941490688/posts?access_token=258507278047521|zcxXsMKuAnK4UYnpRSjiPy5YaHo&limit=3";
+   var queryURL="https://graph.facebook.com/v2.12/me/posts?fields=picture&access_token=258507278047521|zcxXsMKuAnK4UYnpRSjiPy5YaHo&limit=3";
     $.ajax({
               url: queryURL,
               method: "GET"
