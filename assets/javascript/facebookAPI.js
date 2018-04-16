@@ -37,26 +37,26 @@
         fjs.parentNode.insertBefore(js, fjs);
       }(document, 'script', 'facebook-jssdk'));
 
-      
-    $.get("https://graph.facebook.com/v2.12/Sara Alinazari/posts?fields=picture,full_picture,link,created_time&access_token=258507278047521|zcxXsMKuAnK4UYnpRSjiPy5YaHo&limit=3"
-    // ,{  part: "snippet,contentDetails",
-    //     playlistId: playlistid,
-    //     key: "AIzaSyDDjAtFUlvDYNDJyzf_aok7-rHVSDKRd60"},
-        ,function(response){
-            // $.each(data.items, function(i,item){
-                console.log("response"+response);
-                // vid=item.contentDetails.videoId;
-                // showVideo(vid);
-            })
-        }
-    );
-   // var queryURL="https://graph.facebook.com/v2.12/Sara Alinazari/photos?fields=height,width,link&access_token=258507278047521|zcxXsMKuAnK4UYnpRSjiPy5YaHo&limit=3";
-    // $.ajax({
-    //           url: queryURL,
-    //           method: "GET"
-    //         }).then(function(response) {
-    //           console.log("response"+response);
-    //         });
+
+    // $.get("https://graph.facebook.com/v2.12/Sara Alinazari/posts?fields=picture,full_picture,link,created_time&access_token=258507278047521|zcxXsMKuAnK4UYnpRSjiPy5YaHo&limit=3"
+    // // ,{  part: "snippet,contentDetails",
+    // //     playlistId: playlistid,
+    // //     key: "AIzaSyDDjAtFUlvDYNDJyzf_aok7-rHVSDKRd60"},
+    //     ,function(response){
+    //         // $.each(data.items, function(i,item){
+    //             console.log("response"+response);
+    //             // vid=item.contentDetails.videoId;
+    //             // showVideo(vid);
+    //         })
+    //     }
+    // );
+   var queryURL="https://graph.facebook.com/v2.12/Sara Alinazari/photos?fields=height,width,link&access_token=258507278047521|zcxXsMKuAnK4UYnpRSjiPy5YaHo&limit=3";
+    $.ajax({
+              url: queryURL,
+              method: "GET"
+            }).then(function(response) {
+              console.log("response"+response);
+            });
 
             // $.get(fbul, function(auth_token){
             //         $.ajax({
@@ -68,4 +68,4 @@
             //             }
             //         });
             //     });
-            // });
+            });
