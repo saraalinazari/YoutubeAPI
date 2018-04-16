@@ -31,7 +31,7 @@
     // feed?access_token=EAACEdEose0cBAHoKFE31EgXHevqiq428CatboBHxT6TTEfZBPuYb1Y9aOSsEcIrq7NVe2R7CebXkL0P8icRw3ZB22apvljSBZB07tGvX5wAEKasgZCDIohXEPLod9ZA3x8IWIt6ibdczaiTUYqlzQdCelrPo94b4dUENTVZAgYawUhoJDRBXBmlRymehtNpfVP98sYqJZCSfwZDZD";
    
    
-    //var queryURL="https://graph.facebook.com/v2.11/10207157941490688/photos";
+    var queryURL="https://graph.facebook.com/v2.11/10207157941490688/photos";
     $.ajax({
               url: queryURL,
               method: "GET"
