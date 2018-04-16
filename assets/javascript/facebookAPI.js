@@ -25,3 +25,12 @@
     //         }
     //     });
     // });
+    var queryURL="https://graph.facebook.com/Sara Alinazari/posts?fields=full_picture,picture,link,message,created_time&limit=5&access_token=258507278047521|zcxXsMKuAnK4UYnpRSjiPy5YaHo";
+
+
+    $.ajax({
+              url: queryURL,
+              method: "GET"
+            }).then(function(response) {
+              console.log(response);
+            });
