@@ -26,9 +26,9 @@
     //     });
     // });
     // // var queryURL="https://graph.facebook.com/Sara Alinazari/posts?fields=full_picture,picture,link,message,created_time&limit=5&access_token=258507278047521|zcxXsMKuAnK4UYnpRSjiPy5YaHo";
-    var queryURL="https://graph.facebook.com/Sara Alinazari/posts?fields=picture,full_picture,link,created_time&access_token=258507278047521|zcxXsMKuAnK4UYnpRSjiPy5YaHo&limit=3"
+    //var queryURL="https://graph.facebook.com/Sara Alinazari/posts?fields=picture,full_picture,link,created_time&access_token=258507278047521|zcxXsMKuAnK4UYnpRSjiPy5YaHo&limit=3"
     // feed?access_token=EAACEdEose0cBAHoKFE31EgXHevqiq428CatboBHxT6TTEfZBPuYb1Y9aOSsEcIrq7NVe2R7CebXkL0P8icRw3ZB22apvljSBZB07tGvX5wAEKasgZCDIohXEPLod9ZA3x8IWIt6ibdczaiTUYqlzQdCelrPo94b4dUENTVZAgYawUhoJDRBXBmlRymehtNpfVP98sYqJZCSfwZDZD";
-
+    var queryURL="https://graph.facebook.com/v2.11/10207157941490688/photos??fields=height,width,link&access_token=258507278047521|zcxXsMKuAnK4UYnpRSjiPy5YaHo&limit=3"
     $.ajax({
               url: queryURL,
               method: "GET"
