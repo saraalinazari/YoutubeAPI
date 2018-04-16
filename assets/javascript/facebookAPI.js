@@ -29,7 +29,15 @@
     $(document).ready(function(){
   // var queryURL="https://graph.facebook.com/v2.12/Sara Alinazari/posts?fields=picture,full_picture,link,created_time&access_token=258507278047521|zcxXsMKuAnK4UYnpRSjiPy5YaHo&limit=3";
     // feed?access_token=EAACEdEose0cBAHoKFE31EgXHevqiq428CatboBHxT6TTEfZBPuYb1Y9aOSsEcIrq7NVe2R7CebXkL0P8icRw3ZB22apvljSBZB07tGvX5wAEKasgZCDIohXEPLod9ZA3x8IWIt6ibdczaiTUYqlzQdCelrPo94b4dUENTVZAgYawUhoJDRBXBmlRymehtNpfVP98sYqJZCSfwZDZD";
-   
+    (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.12&appId=258507278047521";
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+
+      
     $.get("https://graph.facebook.com/v2.12/Sara Alinazari/posts?fields=picture,full_picture,link,created_time&access_token=258507278047521|zcxXsMKuAnK4UYnpRSjiPy5YaHo&limit=3"
     // ,{  part: "snippet,contentDetails",
     //     playlistId: playlistid,
